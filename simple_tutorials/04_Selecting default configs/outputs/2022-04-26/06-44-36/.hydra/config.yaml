@@ -1,0 +1,5 @@
+db:
+  host: backup
+  driver: mysql
+  user: omry
+  password: secret

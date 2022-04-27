@@ -1,0 +1,5 @@
+db:
+  name: sqlite
+server:
+  name: nginx
+  port: 8080

@@ -1,0 +1,4 @@
+db:
+  user: omry
+  driver: mysql
+  password: secret

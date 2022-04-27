@@ -1,0 +1,16 @@
+db:
+  driver: mysql
+  user: omry
+  pass: secret
+ui:
+  windows:
+    create_db: true
+    view: true
+schema:
+  database: warehouse
+  tables:
+  - name: items
+    fields:
+    - name: string
+    - acquisition_date: date
+    - price: int

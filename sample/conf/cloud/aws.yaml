@@ -1,0 +1,15 @@
+resource:
+  build:
+    instance_type: ml.m5.2xlarge
+    instance_count: 1
+  train:
+    instance_type: ml.p3.2xlarge
+    instance_count: 1
+  register:
+    instance_type: ml.t3.large
+    instance_count: 1
+  
+credential:
+  aws_access_key_id:
+  aws_secret_access_key:
+  region_name: ap-northeast-2

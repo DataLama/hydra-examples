@@ -1,0 +1,2 @@
+- db=postgresql
+- db.timeout=20

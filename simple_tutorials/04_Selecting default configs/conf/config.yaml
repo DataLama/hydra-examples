@@ -1,0 +1,6 @@
+defaults:
+  - _self_ # 아래서 정의한 db.user를 먼저 init하고 db mysql을 append함.
+  - db: mysql
+
+db:
+  user: root

@@ -1,0 +1,4 @@
+defaults: # loads default configs
+  - optimizer: adamw
+  - scheduler: cosine_schedule_with_warmup
+  - tokenizer: autotokenizer

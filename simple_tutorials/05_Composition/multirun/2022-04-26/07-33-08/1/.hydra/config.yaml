@@ -1,0 +1,21 @@
+db:
+  driver: mysql
+  user: omry
+  pass: secret
+ui:
+  windows:
+    create_db: true
+    view: true
+schema:
+  database: support
+  tables:
+  - name: users
+    fields:
+    - name: string
+    - password: string
+  - name: issues
+    fields:
+    - title: string
+    - description: string
+    - reported_by: string
+    - priority: int

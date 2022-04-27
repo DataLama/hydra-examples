@@ -1,0 +1,6 @@
+db:
+  host: localhost
+  port: 3307
+  user: omry
+  password: secret
+  encoding: utf8

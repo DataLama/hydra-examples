@@ -1,0 +1,17 @@
+db:
+  driver: postgresql
+  user: postgres_user
+  pass: drowssap
+  timeout: 10
+ui:
+  windows:
+    create_db: true
+    view: true
+schema:
+  database: warehouse
+  tables:
+  - name: items
+    fields:
+    - name: string
+    - acquisition_date: date
+    - price: int
